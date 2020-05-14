@@ -1,0 +1,144 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  font-family: "Krona One", sans-serif;
+  margin: 10px;
+}
+p {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: coral;
+}
+/*HOME block*/
+#home {
+  background-image: url("images/keyb.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#intro {
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  left: 0;
+  text-align: center;
+  transform: translate(0, -50%);
+  transform: scale(1);
+  color: #ffffff;
+}
+
+.start {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+#scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: -15px;
+  display: block;
+  text-align: center;
+  background-color: #fff;
+}
+#downB {
+  width: 100%;
+}
+/*HOME block*/
+/*NAV-MENU block*/
+#nav {
+  margin: 0px;
+  height: 40px;
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#nav ul {
+  padding: 0px;
+}
+#nav li {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+/*NAV-MENU block*/
+/*ABOUT block*/
+#about {
+  display: flex;
+  padding: 30px;
+}
+#aboutList {
+  width: 180%;
+}
+
+#photo img {
+  height: auto;
+  width: 100%;
+}
+#aboutMe p {
+  font-size: 20px;
+}
+
+#list {
+  height: 70%;
+  padding: 50px;
+  font-size: 28px;
+  line-height: 40px;
+}
+/*ABOUT block*/
+/*MODULES block*/
+#modules {
+  background-color: rgb(226, 226, 226);
+}
+/*MODULES block*/
+/*CONTASTS block*/
+/*CONTASTS block*/
+/*FOOTER*/
+#footer {
+  background: url(images/keyb.jpg) no-repeat center top / cover;
+  background-size: 100%;
+  display: grid;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 14px;
+}
+#readme {
+  padding-left: 60px;
+}
+/*FOOTER*/
+/*заголовки*/
+.head {
+  text-align: center;
+  padding: 40px;
+}
+/*вирівнювання фото при зумі*/
+@media screen and (max-width: 800px) {
+  #about {
+    display: block;
+    padding: 10px;
+  }
+  #aboutList {
+    width: 100%;
+  }
+}
