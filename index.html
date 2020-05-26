@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -33,18 +37,18 @@
         /></a>
       </div>
     </div>
-    <!--HOME block-->
-    
+    <!--/HOME block-->
+
     <!--NAV-MENU block-->
     <div id="nav">
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About me</a></li>
-        <li><a href="#modules">My curses and modules</a></li>
+        <li><a href="#modul">My curses and modules</a></li>
         <li><a href="#contacts">Contacts</a></li>
       </ul>
     </div>
-    <!--NAV-MENU block-->
+    <!--/NAV-MENU block-->
 
     <!--ABOUT block-->
     <div id="about">
@@ -54,45 +58,85 @@
       <div id="aboutList">
         <div class="head">
           <h1>About me</h1>
-          <p>-----------</p>
+          <p class="line">-----------</p>
         </div>
         <div id="list">
           <ul>
-            <li>Name:</li>
-            <li>Place of living:</li>
-            <li>Phone numder:</li>
-            <li>E-mail:</li>
-            <li>Education:</li>
-            <li>Form of education in ITA:</li>
+            <li>Name: <span id="name"></span></li>
+            <li>Surename: <span id="sname"></span></li>
+            <li>Place of living: <span id="place"></span></li>
+            <li>Phone numder: <span id="phone"></span></li>
+            <li>E-mail: <span id="email"></span></li>
+            <li>Education: <span id="education"></span></li>
+            <li>Form of education in ITA: <span id="eduForm"></span></li>
+            <li>Trainer: <span id="trainer"></span></li>
           </ul>
         </div>
       </div>
     </div>
-    <!--ABOUT block-->
+    <!--/ABOUT block-->
 
     <!--MODULES block-->
-    <div id="modules">
+    <div id="modul">
       <div class="head">
         <h1>It's my courses and modules in ITA</h1>
-        <p>-----------</p>
+        <p class="line">-----------</p>
+      </div>
+      <div id="spec">
+        <div class="modules">
+          <div class="name-course" id="courses" align="left"></div>
+          <div class="pointer" id="modules"></div>
+        </div>
       </div>
     </div>
-    <!--MODULES block-->
+    <!--/MODULES block-->
 
     <!--CONTACTS block-->
     <div id="contacts">
       <div class="head">
         <h1>My contacts</h1>
-        <p>-----------</p>
+        <p class="line">-----------</p>
       </div>
+      <ul>
+        <li>
+          <a
+            href="https://www.facebook.com/profile.php?id=100017998560759"
+            target="_blank"
+            ><img
+              src="images/Facebook.png"
+              alt="facebook"
+              class="imageResize"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/sezz-fess-4226581a3/"
+            target="_blank"
+            ><img
+              src="images/LinkedIn.png"
+              alt="linkedIn"
+              class="imageResize"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="Skype:sez767?call" target="_blank">
+            <img src="images/Skype.png" alt="skype" class="imageResize" />
+          </a>
+        </li>
+      </ul>
     </div>
-    <!--MODULES block-->
+    <!--/CONTACTS block-->
 
     <!--FOOTER-->
     <footer id="footer">
       <div id="copyright">&#169; Serhii Feshchuck</div>
       <div id="readme">HTML/CSS/JS course project Vinnytsia IT-Academy.</div>
     </footer>
-    <!--FOOTER-->
+    <!--/FOOTER-->
+
+    <script src="https://intita.com/api/dist/intita-api-client.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>

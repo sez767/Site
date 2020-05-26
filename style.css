@@ -89,28 +89,49 @@ a:hover {
 #aboutList {
   width: 180%;
 }
-
+.line {
+  font-size: 30px;
+}
 #photo img {
   height: auto;
   width: 100%;
 }
-#aboutMe p {
-  font-size: 20px;
-}
-
 #list {
   height: 70%;
   padding: 50px;
   font-size: 28px;
-  line-height: 40px;
+  line-height: 45px;
+  font-family: "Dosis", sans-serif;
 }
 /*ABOUT block*/
 /*MODULES block*/
-#modules {
+#modul {
   background-color: rgb(226, 226, 226);
+  padding: 30px;
 }
+.name-course {
+  font: small-caps bold 24px/1 sans-serif;
+}
+#spec {
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  padding-left: 30px;
+}
+
 /*MODULES block*/
 /*CONTASTS block*/
+#contacts {
+  text-align: center;
+  padding: 30px;
+}
+#contacts li {
+  display: inline-block;
+  width: 120px;
+}
+.imageResize {
+  width: 50px;
+}
 /*CONTASTS block*/
 /*FOOTER*/
 #footer {
