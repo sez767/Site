@@ -154,7 +154,10 @@ a:hover {
   padding: 40px;
 }
 /*вирівнювання фото при зумі*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+  #scroll-down{
+    visibility: hidden;
+  }
   #about {
     display: block;
     padding: 10px;
