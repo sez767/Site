@@ -138,7 +138,7 @@ a:hover {
   background: url(images/keyb.jpg) no-repeat center top / cover;
   background-size: 100%;
   display: grid;
-  padding:10px;
+  padding: 10px;
   color: #fff;
   font-family: "Trebuchet MS", Arial, sans-serif;
   font-size: 0.8em;
@@ -152,14 +152,23 @@ a:hover {
 }
 /*при зумі*/
 @media screen and (max-width: 1000px) {
+  #home {
+    height: fit-content;
+    min-height: 100vh;
+  }
   #intro {
     position: relative;
-  }  
-  #scroll-down{
+    padding-top: 35vh;
+  }
+  #scroll-down {
     visibility: hidden;
   }
   #nav {
     position: relative;
+    height: fit-content;
+  }
+  #nav li {
+    display: list-item;
   }
   #about {
     display: block;
