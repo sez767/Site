@@ -138,14 +138,11 @@ a:hover {
   background: url(images/keyb.jpg) no-repeat center top / cover;
   background-size: 100%;
   display: grid;
-  padding: 10px;
+  padding:10px;
   color: #fff;
-  display: flex;
   font-family: "Trebuchet MS", Arial, sans-serif;
-  font-size: 14px;
-}
-#readme {
-  padding-left: 60px;
+  font-size: 0.8em;
+  text-align: center;
 }
 /*FOOTER*/
 /*заголовки*/
@@ -153,10 +150,16 @@ a:hover {
   text-align: center;
   padding: 40px;
 }
-/*вирівнювання фото при зумі*/
+/*при зумі*/
 @media screen and (max-width: 1000px) {
+  #intro {
+    position: relative;
+  }  
   #scroll-down{
     visibility: hidden;
+  }
+  #nav {
+    position: relative;
   }
   #about {
     display: block;
